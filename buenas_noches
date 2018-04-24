@@ -1,0 +1,283 @@
+print("""
+        ||||||||||||||||||||||||||
+        ||                      ||
+        ||     Buenas noches    ||
+        ||                      ||
+        ||||||||||||||||||||||||||
+""")
+
+
+
+print("""
+Te acabas de despertar en mitad de la noche.
+Abres los ojos, pero está tan oscuro que no estás seguro
+de haberlos abierto. Un escalofrío te recorre.""")
+
+print("""
+¿Te tocas los ojos para ver si los tienes abiertos?
+1. No
+2. Sí""")
+
+ojos = input("> ")
+
+if ojos == "1":
+    print("""
+    Realmente no crees que estés soñando, así que no te tocas los ojos.
+    Todo está increíblemente
+
+    Es muy raro- piensas. No ves ni la luz de las farolas
+    colandose por las persianas, ni parpadea la luz led del
+    móvil que dejaste cargando.
+
+    ¿Se habrá ido la luz de todo el vecindario?""")
+    print("""
+    ¿Qué vas a hacer?""")
+    print("""
+    1. Me tapo con la sábana e intento dormir.
+    2. Me levanto de la cama para ver qué pasa.""")
+
+    cama = input("> ")
+
+    if cama == "1":
+        print("""
+        Notas la sábana ligera sobre ti e intentas
+        calmarte. Pero no puedes. El corazón te late deprisa.
+        Tan deprisa que crees que se te va a salir del pecho.
+        No puedes moverte.
+        Algo te agarra los pies.
+        Desde dentro de la cama.
+        El pánico hace que no puedas respirar.
+        Te tapan la boca y la nariz y el corazón bombea
+        dentro de tu pecho, consumiendo tu oxígeno.
+        A la mañana siguiente, encuentran tu cuerpo""")
+    elif cama == "2":
+        print("""
+        Oyes un ruido en el armario.
+        ¿Qué haces?
+        1. Voy a comprobar el armario.
+        2. No quiero acercarme al armario.
+        Así mueren siempre en las películas. Salgo al pasillo.""")
+
+        armario = input("> ")
+
+        if armario == "1":
+            print("""
+            Sentido común. De eso no tenías.
+            Y películas de terror tampoco has visto muchas.
+
+            Así que abres el armario y te sorprende ver un resplandor
+            al fondo, como si se colase luz por una grieta. Vas como una
+            polilla hacia la luz. Notas la calidez del resplandor. Es agradable.
+            Pero pronto deja de serlo. Hace demasiado calor. Tu frente se perla
+            de sudor. Joder, tu frente se pela, ¡se pela! Trozos de tu cara
+            caen como la cera de una vela. Tu craneo brilla, está al rojo vivo.
+
+            A la mañana siguiente, el telediario abre informando de un incendio
+            en tu casa.
+
+            No ha habido supervivientes.""")
+
+        elif armario == "2":
+            print("""
+            Estás en el pasillo y ves el resto de puertas de tu casa.
+            La cocina está primero, el baño después, a continuación el salón
+            y al fondo la puerta de la calle.
+
+            ¿A dónde te dirijes?
+
+            1. La cocina.
+            2. El baño.
+            3. El salón.""")
+
+
+            pasillo = input("> ")
+
+            if pasillo == "1":
+                print("""
+                Te acercas a la cocina. Todo está tranquilo. Tal vez
+                te dejaste el grifo abierto. Te acercas a comprobarlo.
+
+                No, todo está en orden.
+
+                Te giras y a dos putos centímetros de la cara un rostro sin
+                ojos te observa.
+                Un rostro sin ojos... te observa.
+                Te va a dar un infarto, un dolor intenso se apodera de tu pecho.
+                No puedes moverte y la cosa, ¡la cosa te abraza! Sonríe
+                mientras te mueres en sus brazos.
+
+                A la mañana siguiente encuentran tu cuerpo. Es muy raro que
+                alguien tan joven muera de un infarto, pero tampoco es
+                imposible.
+                'Una pena', piensan todos.""")
+
+            elif pasillo == "2":
+                print("""
+                Te dirijes al baño pensando que igual se ha caído
+                algo de una estantería. Cruzas la puerta y pisas un charco.
+
+                'Joder' piensas.
+                'La cisterna otra vez'
+
+                Enciendes la luz para poder ponerte a recoger el estropicio,
+                pero una corriente te recorre desde la yema del dedo índice,
+                que se te carboniza en el acto, hasta el pie que tienes en el
+                charco. La corriente recorre tu cuerpo de arriba a abajo y de
+                abajo arriba, destrozando tu sistema nervioso y colapsando por
+                completo tus órganos y tu cerebro.
+
+                Un delicioso olor a cerdo frito flota en el ambiente cuando al
+                día siguiente el portero entra en tu casa para ver si el charco
+                que sale por debajo de la puerta está relacionado con el
+                apagón que sufre el edificio.""")
+
+            elif pasillo == "3":
+                print("""
+                Vas hacia el salón pensando que tal vez te has dejado
+                una ventana abierta.
+                Pasas por delante de la cocina y te parece que algo se mueve
+                ahí dentro. La verdad, estás muerto de miedo y pasas de largo
+                tan rápido como puedes teniendo en cuenta lo oscuro que está.
+
+                Pasas por delante del baño y algo te agarra de forma tan
+                violenta e inesperada que apenas eres capaz de soltar un codazo
+                al aire.
+
+                'Ladrones' piensas mientras pisas un charco.
+                Intentas dar la luz para defenderte y justo antes de apretar el
+                interruptor te das cuenta de que tienes el pie mojado.
+                Seguramente ha sido de nuevo la cisterna.
+
+                Al pulsar el interruptor una corriente te recorre desde la yema
+                del dedo índice,que se te carboniza en el acto,
+                hasta el pie que tienes en el charco.
+                La corriente recorre tu cuerpo de arriba a abajo y de
+                abajo arriba, destrozando tu sistema nervioso y colapsando por
+                completo tus órganos y tu cerebro.
+
+                Un delicioso olor a cerdo frito flota en el ambiente cuando al
+                día siguiente el portero entra en tu casa para ver si el charco
+                que sale por debajo de la puerta está relacionado con el
+                apagón que sufre el edificio.
+
+                """)
+
+            else:
+                print(f"Piensas,  '{pasillo}'. " )
+                print("""
+                Intentas centrarte solo en eso. Como si tu vida
+                dependiera de ello. Te concentras en eso, intesamente, mientras
+                avanzas por el pasillo. A tu paso oyes ruídos que vienen de las
+                habitaciones en las que no entras.
+
+
+                De alguna forma has salvado tu vida. Realmente no sabes de qué.
+                Sólo te has despertado en mitad de la noche muerto de miedo.
+                Pero algo te dice que estar en pijama en mitad del rellano a
+                las 3 am es lo mejor que te podía pasar.
+                ¿Raro, eh?
+
+                Buenas noches.""" )
+
+        else:
+            print("""
+            No quieres abrir el armario, pero te da miedo dejar que si hay algo,
+            se quede.
+
+            La verdad, no tienes mucho tiempo para pensarlo. Mientras decidías
+            algo se ha deslizado desde debajo de la cama y se ha preparado para
+            sujetar tus tobillos.
+
+            Antes de que te des cuenta, ha dado un tirón tan brusco que te has
+            ido al suelo impactando la nariz contra la mesilla.
+
+            No lo has visto venir y además estaba totalmente oscuro, así que no
+            has podido poner las manos delante para evitar el golpe.
+
+            Mientras la sangre empieza a descender por tu garganta y te vas
+            ahogando en ella, notas como empiezas a perder el conocimiento.
+
+            Al día siguiente la policía se preguntará cómo has podido tropezarte
+            tan fuerte. Pero no hay señales de violencia, ni en ti ni en la
+            puerta de entrada ni en ningún lugar de la casa.
+
+            Que torpe.
+            """)
+
+    else:
+        print("""
+        No sabes que hacer, el pánico crece desde el estómago.
+
+        No es lo único que surge de ahí. Algo se mueve dentro.
+
+        La forma de una mano se forma sobre tu ombligo. El dolor es
+        insoportable y de una clase que no habías sentido nunca. La mano se
+        mueve, hacia arriba. Es tan asqueroso que quieres vomitar, pero el dolor
+        no te deja ni respirar.
+        Pero no es el dolor. Es la mano. Está apretando tu traquea...
+                    ... desde dentro...
+        Pataleas, lloras, pero no hay nada que hacer.
+        A la mañana siguiente encuentran tu cuerpo. Te quedaste sin aire.
+                    ... pero no hay marcas de violencia...""")
+
+
+elif ojos == "2":
+    print("""
+    Medio dormido, te tocas los ojos, como para comprobar si estas
+    soñando. Es raro que todo esté tan oscuro.
+
+    Pero no encuentras tus ojos. Tienes que estar teniendo una pesadilla.
+    Te incorporas de nuevo, te pellizcas un brazo y empiezas a recorrer tu
+    rostro, desde la barbilla.
+
+    Mentón.
+    Boca.
+    Nariz.
+    Orejas.
+    Cejas.
+
+    No
+        hay
+            ojos
+
+    Solo una zona de piel lisa, sin ningún tipo de marca.
+
+    El terror te azuza como un látigo y sales cayendo y tropezando de la cama.
+    Te arrastras por el salón, sin ser capaz de gritar. Tienes la garganta
+    seca y el corazón desbocado.
+
+    Puede que estés en el baño, tal vez en la cocina. El suelo es de baldosas.
+
+    Hay alguien más en la habitación y tu desesperación es tal que te lanzas a
+    agarrarle en busca de consuelo. Ni siquiera te planteas quién puede ser.
+
+    El resto de tus sentidos empiezan a apagarse.
+    Primero el oído y solo queda un zumbido en tu cabeza.
+    Después el gusto, ya no notas el sabor salado de tu saliva.
+    Tu olfato está completamente embotado.
+    Finalmente, el tacto se desvance y con él la sensación de estar abrazado a
+    ese extraño.
+
+    Cuando todo se apaga, tú te apagas también.
+
+    A la mañana siguiente encuentran tu cuerpo. Es muy raro que
+    alguien tan joven muera de un infarto, pero tampoco es
+    imposible.
+    'Una pena', piensan todos.
+
+    """)
+
+else:
+    print("""
+    No sabes que hacer, el pánico crece desde el estómago.
+    No es lo único que surge de ahí. Algo se mueve dentro.
+
+    La forma de una mano se forma sobre tu ombligo. El dolor es
+    insoportable y de una clase que no habías sentido nunca. La mano se
+    mueve, hacia arriba. Es tan asqueroso que quieres vomitar, pero el dolor
+    no te deja ni respirar.
+    Pero no es el dolor. Es la mano. Está apretando tu traquea...
+                ... desde dentro...
+    Pataleas, lloras, pero no hay nada que hacer.
+    A la mañana siguiente encuentran tu cuerpo. Te quedaste sin aire.
+                ... pero no hay marcas de violencia...""")
